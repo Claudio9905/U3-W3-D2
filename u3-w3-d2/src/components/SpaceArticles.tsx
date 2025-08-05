@@ -45,7 +45,7 @@ const SpaceArticles = () => {
   return (
     <>
       <Container fluid>
-        <Row>
+        <Row className=" g-3">
           {articles?.results.map((article) => {
             return (
               <Col xs={12} md={6} lg={4} key={article.id}>

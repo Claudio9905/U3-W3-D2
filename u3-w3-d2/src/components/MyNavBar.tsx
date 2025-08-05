@@ -15,7 +15,7 @@ const MyNavBar = () => {
             <img
               src="../public/Logo_Snasa.png"
               alt="Logo dell'immagine"
-              className="img-fluid"
+              className="w-50"
             />
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,8 +25,8 @@ const MyNavBar = () => {
                 to="/"
                 className={
                   location.pathname === `/`
-                    ? `nav-item text-light me-2 text-decoration-none tag-page`
-                    : `nav-item text-light me-2 text-decoration-none tag-page`
+                    ? `nav-item text-light me-2 text-decoration-none tag-page fs-4`
+                    : `nav-item text-light me-2 text-decoration-none tag-page fs-4`
                 }
               >
                 Home

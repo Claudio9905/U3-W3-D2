@@ -16,7 +16,7 @@ function App() {
           <Route
             path="/"
             element={
-              <main>
+              <main className="mt-4">
                 <SpaceArticles />
               </main>
             }
