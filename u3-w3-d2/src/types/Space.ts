@@ -40,4 +40,3 @@ interface Launch {
 }
 
 export default Root;
-export default Result;

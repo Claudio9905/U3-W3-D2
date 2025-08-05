@@ -3,16 +3,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import Root from "../types/Space";
+import Card from "react-bootstrap/Card";
 
-interface articleDetails {
-  idArticle: Root;
-}
-
-const Details = (props: articleDetails) => {
+const Details = () => {
   const params = useParams();
   console.log("Params", params);
-  const endpoint = `https://api.spaceflightnewsapi.net/v4/articles/${props.idArticle}`;
+  const endpoint = `https://api.spaceflightnewsapi.net/v4/articles/${params.idArticles}`;
 
   const getDetails = () => {
     fetch(endpoint)
@@ -39,7 +35,18 @@ const Details = (props: articleDetails) => {
     <>
       <Container fluid>
         <Row>
-          <Col></Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </>
