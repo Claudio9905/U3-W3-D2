@@ -1,2 +1,2 @@
-# U3-W3-D2
+Esercizio sull'uso di TypeScript + React sulla creazione di una pagina di articoli spaziali
 
