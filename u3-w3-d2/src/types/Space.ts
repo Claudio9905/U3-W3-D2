@@ -20,6 +20,11 @@ interface Result {
   events: [];
 }
 
+export interface Event {
+  evetn_id: string;
+  provider: boolean;
+}
+
 interface Author {
   name: string;
   socials?: Socials;

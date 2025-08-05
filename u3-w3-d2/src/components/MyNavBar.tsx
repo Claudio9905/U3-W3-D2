@@ -11,11 +11,11 @@ const MyNavBar = () => {
     <>
       <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
         <Container fluid>
-          <Link to="/" className="w-25">
+          <Link to="/" className="w-25 ">
             <img
               src="../public/Logo_Snasa.png"
               alt="Logo dell'immagine"
-              className="w-50"
+              className="w-25"
             />
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,7 +25,7 @@ const MyNavBar = () => {
                 to="/"
                 className={
                   location.pathname === `/`
-                    ? `nav-item text-light me-2 text-decoration-none tag-page fs-4`
+                    ? `nav-item  text-light me-2 text-decoration-none tag-page fs-4`
                     : `nav-item text-light me-2 text-decoration-none tag-page fs-4`
                 }
               >

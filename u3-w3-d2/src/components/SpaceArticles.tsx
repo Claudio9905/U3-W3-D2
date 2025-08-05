@@ -45,15 +45,15 @@ const SpaceArticles = () => {
   return (
     <>
       <Container fluid>
-        <Row className=" g-3">
+        <Row className=" g-3 p-5">
           {articles?.results.map((article) => {
             return (
               <Col xs={12} md={6} lg={4} key={article.id}>
-                <Card>
+                <Card className="h-100">
                   <Card.Img
                     variant="top"
                     src={article.image_url}
-                    className="img-fluid"
+                    className="img-fluid h-100"
                   />
                   <Card.Body>
                     <Card.Title>{article.title}</Card.Title>
