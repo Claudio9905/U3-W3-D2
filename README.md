@@ -1,2 +1,2 @@
-Esercizio sull'uso di TypeScript + React sulla creazione di una pagina di articoli spaziali
+Esercizio sull'uso di TypeScript + React sulla creazione di una pagina di articoli spaziali ( lavori in corso...)
 
